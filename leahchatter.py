@@ -59,7 +59,7 @@ def main():
                     audio_prompt_path=AUDIO_PROMPT_PATH,
                     exaggeration=0.5,
                     cfg_weight=0.5,
-                    temperature=1.6,
+                    temperature=0.8,
                 )
                 ta.save(audio_path, wav, model.sr)
                 print("Done with ", audio_path)
