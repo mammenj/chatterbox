@@ -1,0 +1,31 @@
+Ever wished your Linux terminal could look as good as it works, If you're tired of the default, utilitarian system monitor and want a dashboard thats both powerful and stunning, you have come to the right place.
+Today, we're diving into b top plus plus, the next-generation resource monitor thats about to make you rethink how you monitor your system. 
+This isn't just a simple refresh, it's a total overhaul. In this video, we're not just going to install a system monitor, we're going to transform it. 
+I'll show you exactly how to customize b top plus plus to create a personalized Linux dashboard that's a perfect blend of form and function.
+We will cover everything from changing themes in seconds to editing the configuration file for ultimate control. By the end of this video, you'll have all the tools you need to make your terminal uniquely yours.
+When you first launch b top, you'll be greeted with a stunning, information-rich dashboard. 
+You get a live look at your CPU, memory, and disk usage with beautiful, animated graphs.
+Below the main stats, you'll find detailed breakdowns of your disk read, write speeds and network traffic, which is crucial for diagnosing bottlenecks.
+The bottom half is for your processes. You can easily sort by CPU or memory usage, PID, or process name. 
+And here's the best part, you can use your mouse to click on a column header to sort.
+Plus, every button and every scrollable list is fully mouse-enabled, which makes it feel less like a command-line tool and more like a full-fledged application. 
+These core features make it a significant step up from its predecessors.
+Now, let's get to the fun part, making b top plus plus your own. You can access the main menu by pressing the m key or clicking the Menu button.T
+his is where you can change most of the basic settings, like the update interval or switch between a handful of built-in layout presets.
+But for real customization, let's talk about themes. b top plus plus comes with a number of beautiful themes right out of the box. 
+But the real power is in adding your own. All you need to do is download a theme file and place it in your user themes directory, dot slash config slash b top slash themes slash.
+For total control, you can edit the configuration file directly. It's located at slash dot config slash b top slash b top dot conf. 
+This is a plain text file, and it's very well commented. You can change everything here, from the order of the boxes on the screen to the specific colors used for different metrics. 
+For example, you can toggle the Process Tree view to see a hierarchical view of parent-child processes.
+And for those with a supported GPU NVIDIA, AMD, or Intel, you can enable GPU monitoring in the config file. 
+Just look for the gpu_box equals true option. This will add a dedicated box showing utilization, temperature, and even fan speed.
+So, why choose b top plus plus over the ever-popular htop, Let's do a quick comparison.
+htop is functional and minimal. b top plus plus is modern, graphical, and visually rich. 
+It's simply more pleasant to look at and easier to read at a glance.
+While both show key metrics, b top plus plus provides more information out of the box, including detailed disk and network graphs, which htop doesn't.
+htop allows for some column and color customization, but b top plus plus offers a far more extensive range of options, from themes and layouts to individual graph symbols.
+Ultimately, htop is perfect for quick checks on a server with minimal dependencies. 
+But for a personal machine or a more in-depth analysis, b top plus plus is the clear winner for its superior features and user experience.
+So, there you have it. You've seen how easy it is to take b top plus plus from its default state to a fully customized, beautiful, and powerful system monitor.
+Now it's your turn. What's the first theme or color you're going to try, Let me know in the comments below. 
+If you found this video helpful, a quick like and subscribe would be awesome, it helps me know what kind of content you want to see next. Thanks for watching, and I'll see you in the next one.
